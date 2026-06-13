@@ -1,0 +1,4 @@
+split,n_sequences,n_target_interactions
+train,112,4139
+valid,16,603
+test,32,1227

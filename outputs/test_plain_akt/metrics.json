@@ -1,0 +1,17 @@
+{
+  "best_epoch": 3,
+  "best_valid_auc": 0.5410445975691454,
+  "test_loss": 0.7115659713745117,
+  "test_auc": 0.5477657935285054,
+  "test_acc": 0.5330073349633252,
+  "n_questions": 180,
+  "n_concepts": 30,
+  "n_users": 80,
+  "n_train_seq": 112,
+  "n_valid_seq": 16,
+  "n_test_seq": 32,
+  "n_difficulty_bins": 10,
+  "use_difficulty": false,
+  "target_protocol": "strict_previous_interactions",
+  "trainable_parameters": 94846
+}

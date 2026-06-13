@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Runtime caches
+.cache/
+
+# Large experiment outputs can be regenerated. The package keeps outputs/test_run as a sample result.
+outputs/*
+!outputs/test_run/
+!outputs/test_run/**
+!outputs/test_plain_akt/
+!outputs/test_plain_akt/**
+!outputs/ablation_comparison.*
+
+# Real datasets can be placed locally but are usually not committed unless allowed.
+data/assist2009.csv
+data/processed_assist2009*/
+
+# OS
+.DS_Store
+Thumbs.db
